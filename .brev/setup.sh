@@ -1,1 +1,1 @@
-sudo docker run -p 8888:8888 jupyter/scipy-notebook start-notebook.sh  --NotebookApp.token=''
+sudo docker run -d -p 8888:8888 jupyter/scipy-notebook start-notebook.sh  --NotebookApp.token=''
